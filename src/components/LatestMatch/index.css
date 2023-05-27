@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.ipl-container {
+  background-color: #0f172a;
+  border-radius: 10px;
+}
+
+.match-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.details-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.competing-team-heading {
+  color: white;
+  font-size: 28px;
+  font-family: 'Bree serif';
+}
+
+.venue-date {
+  color: white;
+  font-size: 23px;
+  font-family: 'Bree serif';
+}
+
+.venue-result {
+  color: white;
+  font-size: 17px;
+  font-family: 'Bree serif';
+}
+
+.latest-match-img {
+  width: 120px;
+}
+
+.inning-container {
+  padding-left: 25px;
+  padding-bottom: 10px;
+}
+
+.innings-heading {
+  color: white;
+  font-size: 20px;
+  font-family: 'Bree serif';
+}
+
+.innings-des {
+  color: white;
+  font-size: 17px;
+  font-family: 'Bree serif';
+}
+
+@media screen and (min-width: 768px) {
+  hr {
+    display: none;
+  }
+
+  .ipl-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+  }
+
+  .match-container {
+    width: 60%;
+  }
+
+  .latest-match-img {
+    width: 180px;
+  }
+}

@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.container {
+  padding: 20px;
+}
+
+.spin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.team-match-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.team-banner {
+  width: 90%;
+  border-radius: 4px;
+}
+
+.latest-heading {
+  font-size: 25px;
+}
+
+.match-list-container {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
